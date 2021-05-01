@@ -60,7 +60,7 @@ const About = () => {
                     </a>
                   </div>
                   <div className="d-flex align-items-center">
-                    <a href="linkedin.com/in/md-dalwer-hossain" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linkedin.com/in/md-dalwer-hossain" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon icon={faLinkedin} className="text-primary" style={{ fontSize: "40px" }} />
                     </a>
                   </div>
