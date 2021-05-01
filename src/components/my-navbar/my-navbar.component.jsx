@@ -28,6 +28,7 @@ const MyNavbar = () => {
               <Nav.Link href="#projects"  className="text-white">Projects</Nav.Link>
               <Nav.Link href="#blogs"  className="text-white">Blogs</Nav.Link>
               <Nav.Link href="#contact"  className="text-white">Contact</Nav.Link>
+              <Nav.Link href="https://drive.google.com/uc?export=download&id=1wb8h4w5xo-vveKi3rAAWOaULvGn8MSwU" className="text-white">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>
