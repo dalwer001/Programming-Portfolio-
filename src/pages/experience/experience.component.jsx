@@ -13,16 +13,16 @@ const Experience = () => {
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
-            <Card>
+            <Card className=" bg-shadow">
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                 <Card.Img variant="top" className="img-resize" src="" alt="" />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center text-info">Coming Soon stay with me !</Card.Title>
+                  <Card.Title className="text-center text-warning">Coming Soon stay with me !</Card.Title>
                 </div>
                 <div>
-                  <Card.Text className="text-center style">
+                  <Card.Text className="text-center style ">
                   
                   </Card.Text>
                 </div>

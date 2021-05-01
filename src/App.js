@@ -10,7 +10,7 @@ import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/ContactForm";
-import { Parallax } from "react-parallax";
+import { Background, Parallax } from "react-parallax";
 // import Particles from "react-particles-js";
 import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
@@ -32,7 +32,7 @@ const App = () => {
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.jpg")}
+          bgImage={require("./assets/img/parallex/background.jpg") }
           bgImageAlt=""
           strength={-200}
         >
