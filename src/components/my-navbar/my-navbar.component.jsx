@@ -15,7 +15,7 @@ const MyNavbar = () => {
       >
         <div>
           <Navbar.Brand href="#home">
-            <h1 className="text-white">MDH</h1>
+            {/* <h1 className="text-white">MDH</h1> */}
           </Navbar.Brand>
         </div>
         <div>
