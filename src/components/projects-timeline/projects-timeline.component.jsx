@@ -369,7 +369,7 @@ const TimeLine = () => {
                     SOURCE CODE
         </Button>
 
-                </div>
+        </div>
                 <Accordion.Toggle
                   as={Card.Header}
                   eventKey="2"
