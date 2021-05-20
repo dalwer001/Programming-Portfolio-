@@ -17,7 +17,7 @@ const MyNavbar = () => {
         <div>
           <Navbar.Brand href="#home">
             <Nav.Link href="https://drive.google.com/uc?export=download&id=1wb8h4w5xo-vveKi3rAAWOaULvGn8MSwU" className="text-white"> <Button className="m-2" variant="outline-info">
-                        My Resume
+                        Resume
                       </Button></Nav.Link>
           </Navbar.Brand>
         </div>
