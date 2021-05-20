@@ -20,3 +20,7 @@
     transform: translateY(0rem);
   }
 }
+
+.nav-underline:hover{
+  border-bottom: 1px solid rgb(148, 222, 224);
+}

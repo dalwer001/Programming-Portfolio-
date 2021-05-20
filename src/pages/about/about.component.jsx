@@ -50,18 +50,18 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <FontAwesomeIcon icon={faComment} className="text-warning" style={{ fontSize: "40px" }} />
+                      <FontAwesomeIcon icon={faComment} className="text-warning icon-hover" style={{ fontSize: "40px" }} />
                     </a>
                   </div>
 
                   <div className="d-flex align-items-center px-3">
                     <a href="https://github.com/dalwer001" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faGithub} className="text-dark" style={{ fontSize: "40px" }} />
+                      <FontAwesomeIcon icon={faGithub} className="text-dark icon-hover" style={{ fontSize: "40px" }} />
                     </a>
                   </div>
                   <div className="d-flex align-items-center">
                     <a href="https://linkedin.com/in/md-dalwer-hossain" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faLinkedin} className="text-primary" style={{ fontSize: "40px" }} />
+                      <FontAwesomeIcon icon={faLinkedin} className="text-primary icon-hover" style={{ fontSize: "40px" }} />
                     </a>
                   </div>
                 
