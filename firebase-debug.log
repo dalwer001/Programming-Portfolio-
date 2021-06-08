@@ -1,0 +1,129 @@
+[debug] [2021-06-08T11:12:58.240Z] ----------------------------------------------------------------------
+[debug] [2021-06-08T11:12:58.241Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-06-08T11:12:58.242Z] CLI Version:   9.12.1
+[debug] [2021-06-08T11:12:58.242Z] Platform:      win32
+[debug] [2021-06-08T11:12:58.242Z] Node Version:  v14.15.5
+[debug] [2021-06-08T11:12:58.243Z] Time:          Tue Jun 08 2021 17:12:58 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-06-08T11:12:58.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-08T11:12:58.246Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-06-08T11:12:58.268Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-08T11:12:58.268Z] > authorizing via signed-in user (dalwer001@gmail.com)
+[debug] [2021-06-08T11:12:58.268Z] [iam] checking project portfolio-dalwer for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-06-08T11:12:58.269Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-08T11:12:58.269Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:12:58.532Z] <<< HTTP RESPONSE 200 {"date":"Tue, 08 Jun 2021 11:12:58 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:12:58.548Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dalwer:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-06-08T11:12:59.245Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-06-08T11:12:59.245Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-06-08T11:12:59.987Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 08 Jun 2021 11:13:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1208","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:12:59.987Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project portfolio-dalwer:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-06-08T11:12:59.988Z] > refreshing access token with scopes: []
+[debug] [2021-06-08T11:12:59.988Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:13:00.180Z] <<< HTTP RESPONSE 200 {"date":"Tue, 08 Jun 2021 11:13:00 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:13:00.190Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer [none]
+[debug] [2021-06-08T11:13:00.666Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer 403
+[debug] [2021-06-08T11:13:00.666Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-06-08T11:13:00.666Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-06-08T11:13:00.881Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:66:9)
+    at async C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project portfolio-dalwer. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-06-08T11:14:14.610Z] ----------------------------------------------------------------------
+[debug] [2021-06-08T11:14:14.612Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-06-08T11:14:14.612Z] CLI Version:   9.12.1
+[debug] [2021-06-08T11:14:14.612Z] Platform:      win32
+[debug] [2021-06-08T11:14:14.612Z] Node Version:  v14.15.5
+[debug] [2021-06-08T11:14:14.613Z] Time:          Tue Jun 08 2021 17:14:14 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-06-08T11:14:14.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-08T11:14:14.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-08T11:14:14.620Z] > authorizing via signed-in user (dalwer001@gmail.com)
+[debug] [2021-06-08T11:14:14.620Z] [iam] checking project portfolio-dalwer for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-06-08T11:14:14.621Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-08T11:14:14.622Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:14:14.929Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 08 Jun 2021 11:14:15 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:14:14.941Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dalwer:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-06-08T11:14:16.475Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 08 Jun 2021 11:14:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1315","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:14:16.476Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project portfolio-dalwer:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-06-08T11:14:16.477Z] > refreshing access token with scopes: []
+[debug] [2021-06-08T11:14:16.477Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:14:16.899Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 08 Jun 2021 11:14:16 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:14:16.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer [none]
+[debug] [2021-06-08T11:14:17.368Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer 403
+[debug] [2021-06-08T11:14:17.368Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-06-08T11:14:17.368Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-06-08T11:14:17.582Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:66:9)
+    at async C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project portfolio-dalwer. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-06-08T11:17:44.091Z] ----------------------------------------------------------------------
+[debug] [2021-06-08T11:17:44.093Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-06-08T11:17:44.093Z] CLI Version:   9.12.1
+[debug] [2021-06-08T11:17:44.093Z] Platform:      win32
+[debug] [2021-06-08T11:17:44.093Z] Node Version:  v14.15.5
+[debug] [2021-06-08T11:17:44.094Z] Time:          Tue Jun 08 2021 17:17:44 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-06-08T11:17:44.094Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-08T11:17:44.100Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-08T11:17:44.100Z] > authorizing via signed-in user (dalwer001@gmail.com)
+[debug] [2021-06-08T11:17:44.100Z] [iam] checking project portfolio-dalwer for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-06-08T11:17:44.102Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-08T11:17:44.102Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:17:44.638Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 08 Jun 2021 11:17:44 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:17:44.651Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dalwer:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-06-08T11:17:46.074Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 08 Jun 2021 11:17:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1244","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:17:46.075Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project portfolio-dalwer:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-06-08T11:17:46.077Z] > refreshing access token with scopes: []
+[debug] [2021-06-08T11:17:46.077Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-08T11:17:46.337Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 08 Jun 2021 11:17:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-08T11:17:46.350Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer [none]
+[debug] [2021-06-08T11:17:46.869Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer 403
+[debug] [2021-06-08T11:17:46.869Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dalwer {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-06-08T11:17:46.869Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-06-08T11:17:47.072Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:66:9)
+    at async C:\Users\dalwe\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project portfolio-dalwer. Please make sure the project exists and your account has permission to access it.
