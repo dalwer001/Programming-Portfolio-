@@ -7,7 +7,6 @@
   background-color: rgba(231, 108, 71, 0.733);
   border: none;
   border-radius: 4px;
-
   padding: 10px;
   color: #fff;
 }
@@ -22,7 +21,6 @@
 
 .projects{
   font-size: 1.1em;
-  height: 100vh;
 }
 
 

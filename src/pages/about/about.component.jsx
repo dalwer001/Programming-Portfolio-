@@ -30,7 +30,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-5 my-details rounded mt-5" >
                 Hi there! I am <strong className="text-info">&nbsp;Md. Dalwer Hossain</strong>
-                <br /> I am a web developer with full of energy and determination. I have skilled in Bootstrap, Cascading Style Sheets (CSS), JavaScript,    React, MySQL, MongoDB, Node Js, Express Js, Material UI, and HTML5.
+                <br/> I am a web developer with full of energy and determination. I have skilled in Bootstrap, Cascading Style Sheets (CSS), JavaScript, React, MySQL, MongoDB, Node Js, Express Js, Material UI, and HTML5.
                 <br />
                 <ul style={{ listStyle: 'none' }}>
                   <li> <FontAwesomeIcon icon={faArrowRight}/> I love to do coding, designing, and implementation.</li>

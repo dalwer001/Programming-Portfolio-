@@ -134,8 +134,6 @@ const Experience = () => {
                 </Card>
               </Tilt>
             </div>
-
-
           </div>
 
         </Jumbotron>
