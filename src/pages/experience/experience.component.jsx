@@ -78,7 +78,7 @@ const Experience = () => {
             </div>
 
             <div className="col-md-6 col-sm-12 py-3">
-              <Tilt options={{ max: 20 }}>
+              <Tilt options={{ max: 5 }}>
                 <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize img-fluid img-thumbnail" src={blog3} alt="" />
@@ -107,7 +107,7 @@ const Experience = () => {
 
 
             <div className="col-md-6 col-sm-12 py-3">
-              <Tilt options={{ max: 20 }}>
+              <Tilt options={{ max: 5 }}>
                 <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize img-fluid img-thumbnail" src={blog4} alt="" />
