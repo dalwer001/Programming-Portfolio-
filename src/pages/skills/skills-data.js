@@ -29,6 +29,7 @@ import L_C from "../../assets/img/skills/c.svg";
 import L_Cpp from "../../assets/img/skills/cpp.svg";
 import L_firebase from "../../assets/img/skills/firbase.svg";
 import L_Laravel from "../../assets/img/skills/laravel.svg";
+import R_API from "../../assets/img/skills/rest-api-icon.svg";
 
 export const skills = {
   frontend: [
@@ -113,6 +114,12 @@ export const skills = {
       imgAltText: "Laravel 8",
       imgSrc: L_Laravel,
       skillName: "Laravel 8",
+    },
+    {
+      link: "https://www.restapitutorial.com/",
+      imgAltText: "Rest API",
+      imgSrc: R_API,
+      skillName: "Rest API",
     }
   
   ],

@@ -23,19 +23,20 @@ const About = () => {
         {/* <Jumbotron className=""> */}
           <Row className="pt-3 pb-5 align-items-center ">
             <Col xs={12} md={6}>
-              <Row className=" d-flex justify-content-center mb-2 mr-2 mt-5">
-                <Image className="profile img-thumbnail justify-content-end img-fluid image-shadow" style={{borderRadius: '5%', width:'700px'}} alt="profile" src={Profile} thumbnail fluid />
+              <Row className=" d-flex justify-content-center mb-2 mt-5">
+                <Image className="profile img-thumbnail justify-content-end img-fluid image-shadow" style={{borderRadius: '5%', width:'100%'}} alt="profile" src={Profile} thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-5 my-details rounded mt-5" >
-                Hi there! I am <strong className="text-info">&nbsp;Md. Dalwer Hossain</strong>
-                <br/> I am a web developer with full of energy and determination. I have skilled in Bootstrap, Cascading Style Sheets (CSS), JavaScript, React, MySQL, MongoDB, Node Js, Express Js, Material UI, and HTML5.
+               <span className="mb-2"> Hi there! I am <strong className="text-info">&nbsp;Md. Dalwer Hossain</strong> </span>
+                <br/> 
+                <span className="text-justify">I am a web developer with full of energy and determination. My comfortable and familiar skills in Bootstrap, Cascading Style Sheets (CSS), JavaScript, React, MySQL, Material UI, HTML5, MongoDB, Node Js, Express Js, Laravel 8, and Rest API.</span>
                 <br />
                 <ul style={{ listStyle: 'none' }}>
                   <li> <FontAwesomeIcon icon={faArrowRight}/> I love to do coding, designing, and implementation.</li>
                   <li> <FontAwesomeIcon icon={faArrowRight}/> I am always curious about new technology and invention.</li>
-                  <li> <FontAwesomeIcon icon={faArrowRight}/> I am hardworking and passionate programmer.</li>
+                  <li> <FontAwesomeIcon icon={faArrowRight}/> I am a hardworking and passionate programmer.</li>
                 </ul>
                 <br /> <br />
 

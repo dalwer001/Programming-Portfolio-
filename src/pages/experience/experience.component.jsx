@@ -19,9 +19,9 @@ const Experience = () => {
         <Jumbotron className="jumbo-style">
 
           <div className="row">
-            <div className="col-md-6 col-sm-12 py-3">
+            <div className="col-md-6 col-sm-12 py-2">
               <Tilt options={{ max: 5 }}>
-                <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
+                <Card className=" bg-shadow w-100 ">
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize  img-fluid img-thumbnail" src={blog1} alt="" />
                   </Card.Header>
@@ -32,7 +32,7 @@ const Experience = () => {
                     <div>
                       <Card.Text className=" ">
                         <p>
-                          The slice() removes segments of a string and returns them as a new string. To define which part of the string we want to remove, use the start and end parameters. Position 0 belongs to the first character, position 1 to the second, and so on. But, the original array can not be changed.</p>
+                          The slice() removes segments of a string and returns them as a new string. To define which part of the string we want to remove, use the start and end parameters....</p>
 
                         <a href="https://dalwer-official.medium.com/some-topics-we-need-to-which-is-made-it-easier-to-find-a-solution-in-javascript-6bac40fb3c0b" target="_blank" alt='javascript'>
                           <Button className="m-2" variant="outline-info">
@@ -46,9 +46,9 @@ const Experience = () => {
               </Tilt>
             </div>
 
-            <div className="col-md-6 col-sm-12 py-3">
+            <div className="col-md-6 col-sm-12 py-2">
               <Tilt options={{ max: 5 }}>
-                <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
+                <Card className=" bg-shadow w-100" >
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize  img-fluid img-thumbnail" src={blog2} alt="" />
                   </Card.Header>
@@ -60,7 +60,6 @@ const Experience = () => {
                       <Card.Text className="">
                         <p>
                           Primitive Values include, among other things, numbers and strings. Using console.log(), open your browser’s console and print the following primitive values:
-                        <br />
                         console.log(Hi);
                         <br />
                         </p>
@@ -77,9 +76,9 @@ const Experience = () => {
               </Tilt>
             </div>
 
-            <div className="col-md-6 col-sm-12 py-3">
+            <div className="col-md-6 col-sm-12 py-2">
               <Tilt options={{ max: 5 }}>
-                <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
+                <Card className=" bg-shadow w-100" >
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize img-fluid img-thumbnail" src={blog3} alt="" />
                   </Card.Header>
@@ -90,7 +89,7 @@ const Experience = () => {
                     <div>
                       <Card.Text className=" ">
                         <p>
-                          React is a library written in JavaScript. It’s not quite a framework. It is not a complete solution, and you will frequently need to combine it with other libraries to form any solution. As we know Frameworks are extremely useful, especially for young teams and startups. Many ....
+                          React is a library written in JavaScript. It’s not quite a framework. It is not a complete solution, and you will frequently need to combine it with other libraries ....
                           </p>
 
                         <a href="https://dalwer-official.medium.com/10-important-things-about-react-which-give-an-overview-of-react-5815e99248a6" target="_blank" alt='javascript'>
@@ -106,9 +105,9 @@ const Experience = () => {
             </div>
 
 
-            <div className="col-md-6 col-sm-12 py-3">
+            <div className="col-md-6 col-sm-12 py-2">
               <Tilt options={{ max: 5 }}>
-                <Card className=" bg-shadow" style={{ width: '30rem', height: '35rem' }}>
+                <Card className=" bg-shadow w-100" >
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize img-fluid img-thumbnail" src={blog4} alt="" />
                   </Card.Header>
@@ -119,7 +118,7 @@ const Experience = () => {
                     <div>
                       <Card.Text className=" ">
                         <p>
-                          Truthy expressions in JavaScript evaluate to boolean true values, while falsy expressions evaluate to boolean false values. It can take many different forms. Let’s look at what makes expressions true or false in JavaScript. Such as false...</p>
+                          Truthy expressions in JavaScript evaluate to boolean true values, while falsy expressions evaluate to boolean false values. It can take many different forms....</p>
 
                         <a href="https://dalwer-official.medium.com/10-javascript-concepts-need-to-know-for-the-interview-cc71c157e02f" target="_blank" alt='javascript'>
                           <Button className="m-2" variant="outline-info">
