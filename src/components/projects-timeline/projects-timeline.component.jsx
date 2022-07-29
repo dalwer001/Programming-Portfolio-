@@ -68,7 +68,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Report Manager making for handle multiple client business accounting in one platform. Here, client are looking their daily business transaction not only that but also they can predict their business is going well or not by see different report and chart.That's why We feel that use of such software with help your business grow and develop.
+                        <strong>Description: </strong>Report Manager making for handle multiple client business accounting in one platform. Here, client are looking their daily business transaction not only that but also they can predict their business is going well or not by see different report and chart.That's why We feel that use of such software with help your business grow and develop.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
