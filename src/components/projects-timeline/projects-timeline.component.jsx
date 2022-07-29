@@ -75,7 +75,7 @@ const TimeLine = () => {
                           <li>A Cloud Based complete reporting based business solution.</li>
                           <li>Access to data and report anytime and anywhere.</li>
                           <li>Maintaining of business smoothly.</li>
-                          <li>Tracking of daily business transaction.</li>
+                          <li>Tracking of daily business transaction and fund.</li>
                           <li>Predicting business progressing.</li>
                         </ul>
                         <hr />
@@ -154,7 +154,6 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-
                 <UrlButton
                   href="https://rpm.linnbooks.com/"
                   target="_blank"
@@ -189,7 +188,7 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>A Cloud Based complete ticketing Solutions.</li>
+                          <li>A Cloud Based complete ticketing, parking and expense Solutions.</li>
                           <li>Maintaining of business smoothly.</li>
                           <li>Tracking of Sales And expense.</li>
                           <li>Access to data and report anytime and anywhere.</li>
