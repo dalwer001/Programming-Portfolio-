@@ -16,7 +16,7 @@ const MyNavbar = () => {
       >
         {/* <div> */}
           <Navbar.Brand href="#home">
-            <Nav.Link href="https://drive.google.com/uc?export=download&id=1u0iwxrcCOosATYoS3pWX9M2bStLKy3j2" className="text-white btn btn-outline-info btn-md d-md-none">
+            <Nav.Link href="https://drive.google.com/uc?export=download&id=1u0iwxrcCOosATYoS3pWX9M2bStLKy3j2" className="text-white btn btn-outline-info btn-md">
               Resume
             </Nav.Link>
           </Navbar.Brand>
